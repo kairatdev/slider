@@ -1,0 +1,55 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AddBtn{
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Card{
+    border: 1px solid;
+    width: 230px;
+    height: 293px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.Img{
+    width: 120px;
+    margin-left: 50px;
+
+}
+.Title{
+    margin-left: 55px;
+}
+.Price{
+    margin-left: 85px;
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.Btn{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 0px 0px 11px 11px;
+}
